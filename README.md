@@ -1,5 +1,20 @@
 # Labyrinth2d
-I decided to do a labyrinth game because I thouth it's going to be easy game to start working on.
-First I found out how to use <canvas> and draw lines and circles on the screen.
-Second I had to code collision detection that was a bit tricky because I wanted it to work on the line that isn't just horizontal or vertical.
-After doing that I made start, game, lose and win pages, 10 unique labyrinths.
+
+## Idea:
+After developing Bubble Space Wars I decided to do something different so I had this idea to do a simple game using html/css/javascript and add it to my website that I was developing too.
+
+## Planning:
+
+1. Draw a player.
+2. Add event listeners to move the player.
+3. Draw a map.
+4. Make player react to the walls.
+5. Make start, lose and win pages.
+
+## Building:
+
+1.
+
+## Debugging:
+
+1.

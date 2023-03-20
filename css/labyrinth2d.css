@@ -1,0 +1,143 @@
+canvas {
+    background: url("../images/games/labyrinth2d/background.png") no-repeat center center;
+    background-color: rgb(23, 163, 88);
+    position: relative;
+    margin-top: 65px;
+    height: 640px;
+    width: 960px;
+    left: 50%;
+    transform: translate(-50%);
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+#mainCanvas {
+    visibility: hidden;
+}
+#start_page {
+    background: url("../images/games/labyrinth2d/background.png") no-repeat center center;
+    background-color: rgb(23, 163, 88);
+    height: 640px;
+    width: 960px;
+    position: absolute;
+    margin-top: 65px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    visibility: visible;
+}
+#game_explanation {
+    background-color: #ffd6aaff;
+    border: 1px solid #1179a3ff;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -60%);
+}
+#game_explanation a {
+    color: black;
+}
+#start_button {
+    background-color: #ffd6aaff;
+    border: 1px solid #1179a3ff;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    line-height: 40px;
+    cursor: pointer;
+}
+#start_button:hover {
+    background-color: #ffbe78ff;
+}
+#you_lose_page {
+    background: url("../images/games/labyrinth2d/background.png") no-repeat center center;
+    background-color: rgb(77, 201, 104);;
+    height: 640px;
+    width: 960px;
+    position: absolute;
+    margin-top: 65px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    visibility: hidden;
+}
+#you_lose_page_text {
+    background-color: #ffd6aaff;
+    border: 1px solid #1179a3ff;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -60%);
+}
+#you_lose_page_text a {
+    color: black;
+}
+#retry_button {
+    background-color: #ffd6aaff;
+    border: 1px solid #1179a3ff;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    line-height: 40px;
+    cursor: pointer;
+}
+#retry_button:hover {
+    background-color: #ffbe78ff;
+}
+#you_win_page {
+    background: url("../images/games/labyrinth2d/background.png") no-repeat center center;
+    background-color: rgb(77, 201, 104);
+    height: 640px;
+    width: 960px;
+    position: absolute;
+    margin-top: 65px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    visibility: hidden;
+}
+#you_win_page_text {
+    background-color: #ffd6aaff;
+    border: 1px solid #1179a3ff;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -60%);
+}
+#you_win_page_text a {
+    color: black;
+}
+#play_again_button {
+    background-color: #ffd6aaff;
+    border: 1px solid #1179a3ff;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    line-height: 40px;
+    cursor: pointer;
+}
+#play_again_button:hover {
+    background-color: #ffbe78ff;
+}
